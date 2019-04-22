@@ -1,0 +1,56 @@
+body{
+	background-color:grey;
+}
+div.one{
+	width:80%;
+	/*height:800px;*/
+	margin:auto;
+	background-color:white;
+
+}
+div.two{
+	background-image:url('autumn.jpg');
+	height:150px;
+}
+div.chld{
+	color:white;
+	font-size:30px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:2px
+}
+div.chld1{
+	padding:15px 1px;
+	border-bottom:2px solid blue;
+}
+div.three{
+	padding:15px 1px;
+}
+.tble{
+	width:100%;
+}
+th{
+	background-color:black;
+	color:white;
+}
+input[type="radio"]{ 
+	margin-left:50px;
+}
+td.special {
+	text-align:left;
+   border-right:2px solid black;
+   }
+  /* td:first-child{
+     border-collapse:collapse;
+	 border-right:1px solid black
+   }*/
+tr.colored{
+	background-color:grey;
+	/*tr:nth-child(odd){background-color:grey;}*/
+}	
+footer{
+	background-color:blue;
+	width:100%;
+	height:20px;
+	position:fixed;
+}
